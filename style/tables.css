@@ -1,0 +1,38 @@
+.question-bases{
+    margin: 15px;
+}
+
+/* rest rows of a table*/
+
+.group-bar {
+	background-color: #02394A;
+	height: 26px;
+        color: #CBC9CF;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top:5px;
+        border-top-right-radius: 10px 10px;
+        border-top-left-radius: 10px 10px;
+}
+.album-bar{
+        padding-left: 30px;
+        padding-top: 2px;
+        background-color: #E6E2AF;
+        height: 30px;
+        border-top: 1px solid #CBC9CF;
+        color: black;
+}
+.align-right{
+	float: right;
+}
+
+.list-of-qbases {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+/* table,th, td
+{
+border: 1px solid black;
+}*/

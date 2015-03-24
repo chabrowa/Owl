@@ -1,0 +1,181 @@
+html{
+    font-family: serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color: #02394A; 
+}
+.all{
+    margin:0;
+    padding:0 10px 0 215px;
+}
+.header {
+    background-color: #E6E2AF;
+    line-height: 5px;
+    width: 100%;
+    position: fixed;
+    height: 110px;
+    top: 0px;
+    left: 0px;
+
+}
+
+.menu {
+
+    background-color: #E6E2AF;
+    width: 210px;
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    height: 300px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    line-height: 30px;
+}
+.content {
+    background-color: #EFECCA;
+    margin-left: 4px;
+    margin-top: 120px;
+    height: 520px;
+    overflow: auto;
+    border-bottom-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    font-family: verdana;
+}
+
+ul {list-style: none;}
+
+/* header decorations! */
+a {text-decoration:none; color: #BFBBAE;}
+.logout a {float:right; color: #046380;}
+.header-text {
+    padding-left: 40px; 
+    color: #000;
+}
+.logout{padding-right: 25px;}
+.username-color {font-size: 26px;  
+                color:#02394A; text-shadow: 1px 1px 1px #297596;}
+.user-informations{text-shadow: #046380 0.5px;}
+
+/* menu decorations! */
+.menu ul {list-style: none; padding-left: 2px}
+.menu a {text-decoration:none; 
+        color: #222; 
+        font-size: 20px;
+        padding-left: 8px;
+        border-left: 8px #046380 solid;
+       }
+.menu a:hover {text-decoration:none; 
+        color: #000; 
+        font-size: 20px;
+        padding-left: 8px;
+        border-left: 8px #02394A solid;
+       }
+.menu-links{ padding-top: 5px; padding-left: 30px; }
+.menu-text {
+    color:#02394A; text-shadow: 1px 1px 1px #046380;
+    font-size: 24px; 
+    font-weight: bold;
+    border-bottom: 1px solid #283240;
+    padding-top: 35px; padding-left: 60px;
+    width: 100px;
+    height:40px;
+    margin-left: 20px;
+}
+
+
+/* content profile decorations! */
+.updateform{padding-bottom: 15px;}
+.passwordChanging{ padding-top: 15px; border-top: 1px dashed #191A20;}
+.profile-left-side{float: left; padding: 35px;}
+.profile-right-side{float:left; margin-top: 35px; margin-left: 50px; height: 400px; border-left: 1px dashed #191A20;}
+.subjects{ padding-left: 20px;}
+.inner-content{ margin-left: 75px;}
+.inner-content p{font-size: 23px; color: #297596; font-weight: bold; font-family: serif;}
+input { font-size: 14px; }
+
+/* modalboces decorations! */
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.emi-modal {
+    background-color: whitesmoke;
+    display: none;
+    border-bottom-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+.emi-modal-title {
+    background-color: #191A20;
+    color: #BFBBAE;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: serif;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-right: 30px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+.emi-modal-content{
+    margin-bottom: 20px;
+    padding: 15px 20px 0px 20px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.submit-on-right {
+    float: right;
+}
+.closeButton {
+    cursor: pointer;
+}
+.answersTable {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #dfdfdf;
+    border-bottom-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border: 1px solid #BFBBAE;
+}
+
+/* showQuestions content*/
+
+.showQuestionContent {
+    margin: 5px;
+}
+
+.showQuestionControlBar {
+    	background-color: #191A20;
+	height: 30px;
+        color: #CBC9CF;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top:5px;
+        border-top-right-radius: 10px 10px;
+        border-top-left-radius: 10px 10px;
+        font-family: serif;
+}
+
+/*dropdown content */
+.dropdown-menu {display: none;}
+.dropdown-trigger {cursor: pointer;}
+
+.shortInput {
+    width: 20px;
+}

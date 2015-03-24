@@ -1,0 +1,28 @@
+#students
+{
+    width:100%;
+    border-collapse:collapse;
+}
+#students td, #students th 
+{
+    font-size:1em;
+    border:1px solid #B29E4A;
+    padding:3px 7px 2px 7px;
+}
+#students th 
+{
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#EFECCA;
+    color: #297596;
+}
+#students td {
+    background-color: #E6E2AF;
+}
+#students .testName {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
